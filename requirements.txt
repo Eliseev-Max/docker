@@ -1,0 +1,4 @@
+pytest==6.2.4
+allure-pytest==2.9.43
+selenium==3.141.0
+pytest-rerunfailures==10.0

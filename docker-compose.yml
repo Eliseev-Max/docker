@@ -1,11 +1,6 @@
 version: '3'
 services:
 
-# Try to install "build" instead of "image"
-# Values:
-# PHPADMIN_PORT=8888
-# LOCAL_IP=10.0.2.15
-
   phpadmin:
     image: 'phpmyadmin/phpmyadmin:latest'
     environment:
@@ -43,6 +38,11 @@ services:
       - 'opencart_storage_data:/bitnami/opencart_storage/'
     depends_on:
       - mariadb
+
+  tester:
+    image: 'tester:latest'
+    depends_on:
+      - opencart
 
 volumes:
   mariadb_data:

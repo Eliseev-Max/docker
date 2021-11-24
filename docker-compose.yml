@@ -40,7 +40,7 @@ services:
       - mariadb
 
   tester:
-    image: 'tester:latest'
+    image: 'pytest_tester:latest'
     depends_on:
       - opencart
 

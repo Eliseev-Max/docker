@@ -42,7 +42,7 @@ services:
   tester:
     image: 'pytest_tester:latest'
     volumes:
-      - '~/allure-results:/app/allure-results'
+      - '/var/jenkins_home/workspace/run_services/allure-results:/app/allure-results'
     depends_on:
       - opencart
 

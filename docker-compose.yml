@@ -41,6 +41,8 @@ services:
 
   tester:
     image: 'pytest_tester:latest'
+    volumes:
+      - '~/allure-results:/app/allure-results'
     depends_on:
       - opencart
 

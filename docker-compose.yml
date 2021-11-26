@@ -39,11 +39,6 @@ services:
     depends_on:
       - mariadb
 
-  tester:
-    image: 'pytest_tester:latest'
-    depends_on:
-      - opencart
-
 volumes:
   mariadb_data:
     driver: local

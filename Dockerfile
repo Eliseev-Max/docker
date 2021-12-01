@@ -30,4 +30,4 @@ RUN mkdir logs screenshots
 # Копирую остальные файлы проекта
 COPY . .
 	
-CMD ["pytest", "--selenoid"]
+CMD ["pytest"]

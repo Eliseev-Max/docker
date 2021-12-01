@@ -1,5 +1,5 @@
 import allure
-from Product import Product
+from Pages.Product import Product
 
 
 @allure.title("Поиск элементов на странице карточки товара")

@@ -2,7 +2,7 @@
 
 import time
 import allure
-from MainPage import MainPage
+from Pages.MainPage import MainPage
 
 CURRENCY = dict({"USD": "$", "EUR": "€", "GBP": "£"})
 CURRENCY_LIST = list(CURRENCY.keys())

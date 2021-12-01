@@ -1,6 +1,6 @@
 import allure
-from BaseClass import LoginOnAdminPage
-from AdminPage import AdminPage
+from Pages.BaseClass import LoginOnAdminPage
+from Pages.AdminPage import AdminPage
 
 
 USERNAME = "user"

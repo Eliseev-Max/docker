@@ -1,6 +1,6 @@
 import random
 import allure
-from Catalog import Catalog
+from Pages.Catalog import Catalog
 
 
 @allure.title("Поиск веб-элементов на странице каталога Laptops&Notebooks")

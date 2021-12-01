@@ -18,8 +18,6 @@ def pytest_addoption(parser):
                      default="chrome")
     parser.addoption("--executor", action="store", default="10.0.2.15")
     parser.addoption("--url", action="store", default="http://10.0.2.15/")
-    # parser.addoption("--url", action="store", default="http://172.19.16.229/")
-    # parser.addoption("--url", action="store", default="http://192.168.1.48/")
     parser.addoption("--selenoid", action="store_true", default=False)
     parser.addoption("--bversion", action="store", default="92.0")
     parser.addoption("--vnc", action="store_true", default=False)

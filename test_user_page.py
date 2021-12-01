@@ -1,5 +1,5 @@
 import allure
-from UserLoginPage import UserLoginPage
+from Pages.UserLoginPage import UserLoginPage
 
 
 @allure.title("Проверка наличия веб-элементов на странице авторизации пользователя")
